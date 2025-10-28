@@ -325,8 +325,11 @@ body {
 }
 
 .chart-container {
+  width: 100%;
   height: 300px;
   margin-top: 1rem;
+  min-height: 300px;
+  position: relative;
 }
 
 /* Compare Page */
