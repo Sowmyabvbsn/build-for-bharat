@@ -249,6 +249,7 @@ async def fetch_or_generate_data(district_code: str, district_name: str, month: 
     # Cache it
     await db.mgnrega_data.insert_one(data)
     
+    # Return data without _id
     return data
 
 # Routes
